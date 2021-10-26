@@ -1,0 +1,35 @@
+.word {
+	-fx-font-family: sans-serif ;
+	-fx-font-size: 32pt ;
+	-fx-padding: 12 ;
+	-fx-min-width: 300 ;
+}
+
+.controls {
+	-fx-alignment: center ;
+	-fx-padding: 12 ;
+}
+
+.buttons {
+	-fx-hgap: 2;
+	-fx-vgap: 2;
+	-fx-padding: 12 ;
+}
+
+.letter-button {
+	-fx-max-width: infinity ;
+	-fx-max-height: infinity ;
+}
+
+.life-lost {
+	-fx-background-color: -fx-color, black, -fx-color ;
+	-fx-background-insets: 0, 2, 4 ;
+	-fx-min-width: 36 ;
+	-fx-min-height: 36 ;
+	-fx-font-size: 24 ;
+	-fx-font-family: "comic sans ms" ;
+}
+
+.life-lost .text {
+	-fx-fill: red ;
+}
